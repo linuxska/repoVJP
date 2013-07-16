@@ -3,7 +3,7 @@
   <head>
     <?php include_http_metas() ?>
     <?php include_metas() ?>
-    <title><?php include_slot('title', 'IPE')?></title>
+    <title><?php include_slot('title', 'VJP')?></title>
     <link rel="shortcut icon" href="favicon.ico" />
     <?php include_stylesheets() ?>
     <?php include_javascripts() ?>
@@ -30,22 +30,22 @@
       <div id="wrapper">
           <div id="header">
               <div id="logos">
-                <img alt="Instituto Práctico Ebenezer" src="/images/logos/banner.jpg" />
+                <img alt="Veranda Jardineria y Paisajismo" src="/images/logos/banner.jpg" />
               </div>
           </div>
-          <div id="content" class="ipe_admin_content">
+          <div id="content" class="vjp_admin_content">
               <div>
                   <span id="show" style="cursor:pointer;display:none;padding-left:10px;padding-right:10px;background-color:#17608A;color:white" title="Mostrar menu">&nabla;</span>
               </div>
-              <?php include_partial('ipe/menu', array('sf_user'=>$sf_user));?>
+              <?php include_partial('indice/menu', array('sf_user'=>$sf_user));?>
               <div id="workspace">
                     <?php echo $sf_content ?>
               </div>
           </div>
           <div class="rp_admin_footer">
-      <p> <?php echo date('Y', time());?> <a href="http://www.institutoebenezer.net">Instituto Practico Ebenezer</a>.
-      <p class="rp_admin_ipe">Dr. Noriega No. 161 esq con Ramirez, Colonia Centro, Hermosillo, Sonora. CP 83000.<br />Telefono: 01 662 213 3878 | CorreoE: institutoebenezer@prodigy.net</p>
-      <p class="rp_admin_dev">Desarrollado por Abraham Rafael Rico Moreno.<br /> <a href="http://www.abricolabs.net/">Labs Cafeinne</a>. 461 1433 296 </p>
+      <p> <?php echo date('Y', time());?> <a href="http://www.verandajardineria.com">Veranda Jardineria y Paisajismo</a>.
+        <p class="rp_admin_vpj">Prolongación Corregidora Norte #1218 Col. Arboledas del Parque CP 76140 Quéretaro Qro.</p>
+        <p class="rp_admin_dev">Desarrollado por Abraham Rafael Rico Moreno.<br /> <a href="http://www.abricolabs.net/">Labs Cafeinne</a>. 461 1433 296 </p>
     </div>
       </div>
   </body>
